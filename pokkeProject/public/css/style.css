@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+    min-width: 80%;
+}
+
+header{
+    background-color: pink;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img{
+    width: 100px;
+}
+
+table{
+    width: 100%;
+    max-width: 80%;
+}
+
+th,td{
+    padding: 10px;
+}
+
+h2{
+    color: white;
+    background-color: black;
+}
+
+footer img{
+    width: 100%;
+}
+
+.TrimmerIntroduction{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.TrimmerIntroduction img{
+    width: 400px;
+    border: solid 1px black;
+}
+
+.TrimmerIntroduction ul{
+    list-style-type: none;
+    padding: 20px;
+    border: dashed 2px #668ad8;
+    margin-left: 20px;
+}
+
+.TrimmerIntroduction ul li{
+    text-align: left;
+    padding: 20px 0;
+}
+
+
