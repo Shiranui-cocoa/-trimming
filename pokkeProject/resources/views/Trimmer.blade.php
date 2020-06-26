@@ -21,7 +21,7 @@
     <img src="/img/ピンシャーイラスト.png" alt="画像">
     <ul>
         <li><?php echo $trimmer["TrimmerName"]; ?></li>
-        <li><?php echo $trimmer["TrimmerHistory"];?></li>
+        <li>トリマー歴<?php echo $trimmer["TrimmerHistory"];?>年</li>
         <li>好きな犬種 ダックス</li>
         <li>指名料 <?php echo $trimmer["nominate"];?>円</li>
     </ul>
@@ -29,20 +29,21 @@
 
 <?php } ?>
 
+{{--コメントアウト
 @foreach($trimmers as $trimmer)
 
     <div class="TrimmerIntroduction">
     <img src="/img/ピンシャーイラスト.png" alt="画像">
     <ul>
         <li>{{$trimmer["TrimmerName"]}}</li>
-        <li>{{$trimmer["TrimmerHistory"]}}</li>
+        <li>トリマー歴{{$trimmer["TrimmerHistory"]}}年</li>
         <li>好きな犬種 ダックス</li>
         <li>指名料 {{$trimmer["nominate"]}}円</li>
     </ul>
 </div>
 
 @endforeach
-
+コメントアウト--}}
 
 
 
