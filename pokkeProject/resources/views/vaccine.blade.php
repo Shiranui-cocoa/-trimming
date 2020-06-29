@@ -13,8 +13,12 @@
         <h1>トリミングサロン○○</h1>
         <img src="/img/プードルイラスト.png" alt="プードル">
     </header>
-<h1>ワクチン</h1>
-    
+
+@foreach ($owners as $owner)
+    {{$owner["OwnerName"]}}
+@endforeach
+
+
 
 
     <footer>

@@ -1,4 +1,16 @@
 @charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a {
+text-decoration: none;
+}
 
 body{
     text-align: center;
@@ -12,8 +24,13 @@ header{
     justify-content: space-around;
 }
 
+header h1{
+    margin: auto 0px;
+}
+
 header img{
     width: 100px;
+    margin: 20px 0px;
 }
 
 table{
@@ -57,4 +74,151 @@ footer img{
     padding: 20px 0;
 }
 
+.menu-list{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+}
+
+.menu-list ul li{
+    background-color: rgb(252, 243, 124);
+    border: solid 5px rgb(90, 189, 255);
+    border-radius:20px;
+    display: inline-block;
+}
+
+.menu-list li{
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+.index-left{
+    margin: auto 0px;
+    width: 70%;
+}
+
+input.text-area{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input.submit-button{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius:10px;
+    background-color: #bdf1fa;
+}
+.text-area{
+    width: 100%;
+}
+
+.login-box{
+    padding: 10%;
+}
+
+.login-box table{
+    border: 2px black solid;
+    margin-bottom: 40px;
+    padding: 30px 20px 20px 0px;
+}
+
+.login-box a{
+    background-color: rgb(252, 243, 124);
+    border: solid 1px rgb(90, 189, 255);
+    border-radius:20px;
+    padding: 20px;
+}
+
+.index-right{
+    margin: auto 0px;
+    width: 40%;
+}
+
+.index-right p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.index-right a{
+    background-color: rgb(252, 243, 124);
+    border: solid 1px rgb(90, 189, 255);
+    border-radius:20px;
+    padding: 20px;
+}
+
+.index-top{
+    display: inline-flex;
+    width: 90%;
+}
+
+.index-bottom{
+    margin-right: 30%;
+}
+
+.line{
+    background-color: aquamarine;
+    height: 20px;
+}
+
+/*MedicalRecord top*/
+.medical-record-top{
+    display: flex;
+}
+
+.medical-record-top-left{
+    width: 40%;
+    margin: 10px;
+}
+
+.medical-record-top-center{
+    width: 40%;
+    margin: 10px 0px;
+}
+
+.medical-record-top-right{
+    width: 40%;
+    margin: 10px;
+}
+
+/*MedicalRecord bottom*/
+.medical-record-bottom{
+    width: 100%;
+    margin: 10px;
+}
+
+.medical-record-bottom table{
+    border: solid 1px black;
+    border-collapse: collapse;
+    max-width: 98%;
+}
+
+.medical-record-bottom tr td{
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.medical-record-top-left table,
+.medical-record-top-center table,
+.medical-record-top-right table{
+    border: solid 1px black;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.medical-record-top-left tr td,
+.medical-record-top-center tr td,
+.medical-record-top-right tr td{
+    border: solid 1px black;
+}
+
+.medical-record-top-right-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medical-record-top-right img{
+    width: 100%;
+    height: auto;
+    margin: 1px;
+}
 

@@ -51,3 +51,7 @@ Route::get('Vaccine', 'VaccineController@Vaccine');
 
 Route::get('Trimmer' , 'TrimmingController@list');
     //トリマー紹介
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

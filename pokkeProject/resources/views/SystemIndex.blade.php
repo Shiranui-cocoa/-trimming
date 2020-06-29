@@ -13,7 +13,13 @@
         <h1>トリミングサロン○○</h1>
         <img src="/img/プードルイラスト.png" alt="プードル">
     </header>
-<h1>システムトップページ</h1>
+        <section class="menu-list">
+            <ul>
+                <li><a href="/ReservationList">予約表</a></li>
+                <li><a href="/MedicalRecord">カルテ</a></li>
+                <li><a href="/Vaccine">ワクチン確認データ</a></li>
+            </ul>
+        </section>
 
 
     <footer>
