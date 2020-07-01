@@ -13,7 +13,20 @@
         <h1>トリミングサロン○○</h1>
         <img src="/img/プードルイラスト.png" alt="プードル">
     </header>
-<h1>マイページ</h1>
+
+    <div class="my-page-top">
+        <div class="my-page-top-left">
+            <img src="/img/ピンシャーイラスト.png" alt="ワンちゃん写真">
+        </div>
+
+        <div class="my-page-top-right">
+            <p>ようこそ{{$name}}さま！✖︎✖︎ちゃん！</p>
+            <p>前回のトリミング来店日</p>
+            <p>○月○日 シャンプーコース</p>
+            <p><a href="/PhotoAlbum">フォトアルバム</a></p>
+        </div>
+
+    </div>
 
 
     <footer>

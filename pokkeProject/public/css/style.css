@@ -200,9 +200,8 @@ input.submit-button{
 .medical-record-top-left table,
 .medical-record-top-center table,
 .medical-record-top-right table{
-    border: solid 1px black;
-    border-collapse: collapse;
     max-width: 100%;
+    border-collapse: collapse;
 }
 
 .medical-record-top-left tr td,
@@ -219,6 +218,70 @@ input.submit-button{
 .medical-record-top-right img{
     width: 100%;
     height: auto;
-    margin: 1px;
 }
 
+.member-registration-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-registration-form-left input,
+.member-registration-form-right input{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.member-registration-form-left .button-type,
+.member-registration-form-right .button-type{
+    width: 10%;
+}
+
+
+.member-registration-form-left,
+.member-registration-form-right{
+    max-width: 40%;
+    text-align: left;
+}
+
+.member-registration-form-left .family-hospital-line{
+    margin-bottom: 30px;
+}
+
+.my-page-button{
+    background-color: rgb(252, 243, 124);
+    border: solid 1px rgb(90, 189, 255);
+    border-radius:20px;
+    padding: 20px;
+}
+
+
+/*my-page*/
+.my-page-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-page-top-left,
+.my-page-top-right{
+    max-width: 80%;
+    min-width: 50%;
+}
+
+.my-page-top-left img{
+    width: 40%;
+    border-radius:20px;
+    border: solid 1px black;
+}
+
+.my-page-top-right p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.my-page-top-right a{
+    background-color: rgb(252, 243, 124);
+    border: solid 1px rgb(90, 189, 255);
+    border-radius:20px;
+    padding: 10px;
+}

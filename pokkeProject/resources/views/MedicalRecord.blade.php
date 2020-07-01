@@ -91,7 +91,7 @@
         <div class="medical-record-top-right">
             <table>
                 <th>
-                    <tdolspan="2"><img src="/img/ダックス.png" alt="犬の画像"></tdolspan=>
+                    <tdolspan="2"><img src="/img/コリー.png" alt="犬の画像"></tdolspan=>
                 </th>
                 <tr>
                     <td>初回来店日</td>

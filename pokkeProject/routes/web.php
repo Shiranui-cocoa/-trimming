@@ -31,8 +31,11 @@ Route::get('MedicalRecord' , 'MedicalRecordController@MedicalRecord');
 Route::get('MemberRegistration' , 'MemberRegistrationController@MemberRegistration');
     //新規登録
 
-Route::get('MyPage', 'MyPageController@MyPage');
+Route::post('MyPage', 'MyPageController@MyPage');
     //マイページ
+
+Route::post('MyPageRegister' , 'MyPageRegisterController@MyPageRegister');
+    //マイページ登録確認
 
 Route::get('PhotoAlbum', 'PhotoAlbumController@PhotoAlbum');
     //フォトギャラリー
